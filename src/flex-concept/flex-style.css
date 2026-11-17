@@ -1,4 +1,4 @@
-.square {
+.child {
   width: 200px;
   height: 200px;
   background-color: yellow;
@@ -9,4 +9,11 @@
   /* margin: 200px 600px 200px 600px; */
   /* margin: 200px 600px; */
   padding: 50px;
+  margin-bottom: 10px;
+}
+.parent {
+  align-items: center;
+  background-color: lightblue;
+  margin-left: 500px;
+  margin-right: 500px;
 }
