@@ -1,5 +1,6 @@
 import DemoCssComponent from "./demo-css/demo-css-component";
 import DemoHTMLComponent from "./demo-html/demo-html";
+import FlexComponent from "./flex-concept/flex-component";
 
 function App() {
   return (
@@ -131,7 +132,8 @@ function App() {
           10,773 runs at an average of more than 50 in ODIs.
         </div>
       </div> */}
-      <DemoCssComponent />
+      {/* <DemoCssComponent /> */}
+      <FlexComponent />
       {/* <DemoCssComponent />
       <DemoHTMLComponent /> */}
     </>

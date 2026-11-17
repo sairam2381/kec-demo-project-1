@@ -1,0 +1,12 @@
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  /* margin-left: 600px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  margin-right: 600px; */
+  /* margin: 200px 600px 200px 600px; */
+  /* margin: 200px 600px; */
+  padding: 50px;
+}
