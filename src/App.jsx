@@ -40,7 +40,7 @@ function App() {
         src="https://cdn.britannica.com/25/222725-050-170F622A/Indian-cricketer-Mahendra-Singh-Dhoni-2011.jpg"
         alt="Dhoni"
       /> */}
-      <table border="1" cellpadding="50" cellspacing="0">
+      {/* <table border="1" cellpadding="20" cellspacing="0">
         <tr>
           <th>Firstname</th>
           <th>Lastname</th>
@@ -51,7 +51,31 @@ function App() {
           <td>Arun</td>
           <td>GH</td>
         </tr>
-      </table>
+      </table> */}
+      {/* <table border="1" cellPadding="20" cellSpacing="0">
+        <tr>
+          <th>Firstname</th>
+          <td>Sai</td>
+          <td>Eve</td>
+        </tr>
+        <tr>
+          <th>Lastname</th>
+          <td>Arun</td>
+          <td>Jackson</td>
+        </tr>
+        <tr>
+          <th>Age</th>
+          <td>26</td>
+          <td>20</td>
+        </tr>
+      </table> */}
+      <form method="post" action="/submit">
+        <label for="email">Enter your Email</label>
+        <input type="email" id="email" name="email" />
+        <label for="password">Enter your Password</label>
+        <input type="password" id="password" name="password" />
+        <button type="submit">Submit</button>
+      </form>
     </>
   );
 }
