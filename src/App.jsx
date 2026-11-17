@@ -1,4 +1,5 @@
 import DemoCssComponent from "./demo-css/demo-css-component";
+import DemoHTMLComponent from "./demo-html/demo-html";
 
 function App() {
   return (
@@ -132,6 +133,7 @@ function App() {
       </div> */}
       <DemoCssComponent />
       <DemoCssComponent />
+      <DemoHTMLComponent />
     </>
   );
 }
