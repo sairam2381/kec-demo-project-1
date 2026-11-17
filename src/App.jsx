@@ -69,11 +69,32 @@ function App() {
           <td>20</td>
         </tr>
       </table> */}
-      <form method="post" action="/submit">
+      {/* <form method="post" action="/submit">
         <label for="email">Enter your Email</label>
         <input type="email" id="email" name="email" />
         <label for="password">Enter your Password</label>
         <input type="password" id="password" name="password" />
+        <button type="submit">Submit</button>
+      </form> */}
+      <form method="post">
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          minLength="2"
+          maxLength="50"
+          required
+        />
+        <label for="mobile">Mobile</label>
+        <input
+          type="tel"
+          id="mobile"
+          name="mobile"
+          pattern="[0-9]{10}"
+          maxLength="10"
+          required
+        />
         <button type="submit">Submit</button>
       </form>
     </>
