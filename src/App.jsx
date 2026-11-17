@@ -1,3 +1,5 @@
+import DemoCssComponent from "./demo-css/demo-css-component";
+
 function App() {
   return (
     <>
@@ -97,7 +99,7 @@ function App() {
         />
         <button type="submit">Submit</button>
       </form> */}
-      <div>
+      {/* <div>
         <div
           style={{
             backgroundColor: "lightblue",
@@ -127,7 +129,9 @@ function App() {
           2019. He has scored 17,266 runs in international cricket, including
           10,773 runs at an average of more than 50 in ODIs.
         </div>
-      </div>
+      </div> */}
+      <DemoCssComponent />
+      <DemoCssComponent />
     </>
   );
 }
