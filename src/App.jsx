@@ -132,8 +132,8 @@ function App() {
         </div>
       </div> */}
       <DemoCssComponent />
-      <DemoCssComponent />
-      <DemoHTMLComponent />
+      {/* <DemoCssComponent />
+      <DemoHTMLComponent /> */}
     </>
   );
 }
