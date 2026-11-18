@@ -1,5 +1,6 @@
 import DemoCssComponent from "./demo-css/demo-css-component";
 import DemoHTMLComponent from "./demo-html/demo-html";
+import FlexConcept2 from "./flex-concept-2/flex-concept-2";
 import FlexComponent from "./flex-concept/flex-component";
 
 function App() {
@@ -133,9 +134,10 @@ function App() {
         </div>
       </div> */}
       {/* <DemoCssComponent /> */}
-      <FlexComponent />
+      {/* <FlexComponent /> */}
       {/* <DemoCssComponent />
       <DemoHTMLComponent /> */}
+      <FlexConcept2 />
     </>
   );
 }

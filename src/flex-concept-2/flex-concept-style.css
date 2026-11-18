@@ -1,0 +1,17 @@
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  @media (max-width: 604px) {
+    width: 200px;
+  }
+}
+.child {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  /* @media (max-width: 604px) {
+    width: 100px;
+    height: 100px;
+  } */
+}
