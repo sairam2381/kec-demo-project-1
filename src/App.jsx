@@ -3,6 +3,7 @@ import DemoHTMLComponent from "./demo-html/demo-html";
 import FlexConcept2 from "./flex-concept-2/flex-concept-2";
 import FlexComponent from "./flex-concept/flex-component";
 import HeroComponent from "./hero-component/hero-component";
+import LeadersTodayLearnersTomorrow from "./leaders-today-leaders-tomorrow/leaders-today-learners-tomorrow";
 
 function App() {
   return (
@@ -140,6 +141,7 @@ function App() {
       <DemoHTMLComponent /> */}
       {/* <FlexConcept2 /> */}
       <HeroComponent />
+      <LeadersTodayLearnersTomorrow />
     </>
   );
 }
