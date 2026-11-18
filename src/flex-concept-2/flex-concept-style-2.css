@@ -17,8 +17,12 @@ h1 {
   justify-content: center;
 }
 .container_element {
+  display: flex;
+  flex-direction: column;
   background-color: aqua;
   border: 3px solid black;
+  justify-content: center;
+  align-items: center;
   width: 400px;
   height: 400px;
   /* @media (max-width: 604px) {
@@ -30,9 +34,11 @@ h1 {
   font-size: 40px;
   color: gray;
   font-weight: 700;
+  font-family: "Work Sans", sans-serif;
 }
 .name {
   font-size: 20px;
   font-weight: 500;
   color: gray;
+  font-family: "Work Sans", sans-serif;
 }
