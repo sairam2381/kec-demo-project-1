@@ -2,6 +2,7 @@ import DemoCssComponent from "./demo-css/demo-css-component";
 import DemoHTMLComponent from "./demo-html/demo-html";
 import FlexConcept2 from "./flex-concept-2/flex-concept-2";
 import FlexComponent from "./flex-concept/flex-component";
+import HeroComponent from "./hero-component/hero-component";
 
 function App() {
   return (
@@ -137,7 +138,8 @@ function App() {
       {/* <FlexComponent /> */}
       {/* <DemoCssComponent />
       <DemoHTMLComponent /> */}
-      <FlexConcept2 />
+      {/* <FlexConcept2 /> */}
+      <HeroComponent />
     </>
   );
 }
