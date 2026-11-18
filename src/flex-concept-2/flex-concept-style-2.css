@@ -1,15 +1,14 @@
-.parent {
+.container {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  @media (max-width: 604px) {
-    width: 200px;
-  }
+  align-items: center;
+  justify-content: center;
 }
-.child {
+.container_element {
   background-color: red;
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   /* @media (max-width: 604px) {
     width: 100px;
     height: 100px;
