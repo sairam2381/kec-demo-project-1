@@ -5,6 +5,7 @@ import FlexComponent from "./flex-concept/flex-component";
 import HeroComponent from "./hero-component/hero-component";
 import LeadersTodayLearnersTomorrow from "./leaders-today-leaders-tomorrow/leaders-today-learners-tomorrow";
 import NpmDropdownComponent from "./npm-dropdown/npm-dropdown-component";
+import UseEffectComponent from "./useEffect-component/useEffect-component";
 import UsestateComponent from "./usestate/usestate";
 import UseStateTwo from "./usestate/usestate-2";
 
@@ -161,8 +162,9 @@ function App() {
       <LeadersTodayLearnersTomorrow value={20} data={object2} />
       <LeadersTodayLearnersTomorrow value={30} data={object3} /> */}
       {/* <UsestateComponent /> */}
-      <UseStateTwo />
-      <NpmDropdownComponent />
+      {/* <UseStateTwo />
+      <NpmDropdownComponent /> */}
+      <UseEffectComponent />
     </>
   );
 }
