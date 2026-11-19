@@ -152,11 +152,11 @@ function App() {
       {/* <FlexComponent /> */}
       {/* <DemoCssComponent />
       <DemoHTMLComponent /> */}
-      {/* <FlexConcept2 /> */}
-      <HeroComponent />
+      <FlexConcept2 />
+      {/* <HeroComponent />
       <LeadersTodayLearnersTomorrow value={10} data={object1} />
       <LeadersTodayLearnersTomorrow value={20} data={object2} />
-      <LeadersTodayLearnersTomorrow value={30} data={object3} />
+      <LeadersTodayLearnersTomorrow value={30} data={object3} /> */}
     </>
   );
 }
