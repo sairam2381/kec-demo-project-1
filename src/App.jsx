@@ -6,6 +6,19 @@ import HeroComponent from "./hero-component/hero-component";
 import LeadersTodayLearnersTomorrow from "./leaders-today-leaders-tomorrow/leaders-today-learners-tomorrow";
 
 function App() {
+  const object1 = {
+    title: "Leaders Today, Learners Tomorrow",
+    subTitle:
+      "With our continuous research and development, we provide you with an excellent Aptitude training.",
+  };
+  const object2 = {
+    title: "Hello world",
+    subTitle: "Hello KEC",
+  };
+  const object3 = {
+    title: "Hello Chennai",
+    subTitle: "Hello IIT",
+  };
   return (
     <>
       {/* <h1>Hello world</h1>
@@ -141,7 +154,9 @@ function App() {
       <DemoHTMLComponent /> */}
       {/* <FlexConcept2 /> */}
       <HeroComponent />
-      <LeadersTodayLearnersTomorrow />
+      <LeadersTodayLearnersTomorrow value={10} data={object1} />
+      <LeadersTodayLearnersTomorrow value={20} data={object2} />
+      <LeadersTodayLearnersTomorrow value={30} data={object3} />
     </>
   );
 }
