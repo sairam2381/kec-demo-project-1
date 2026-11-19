@@ -5,6 +5,7 @@ import FlexComponent from "./flex-concept/flex-component";
 import HeroComponent from "./hero-component/hero-component";
 import LeadersTodayLearnersTomorrow from "./leaders-today-leaders-tomorrow/leaders-today-learners-tomorrow";
 import UsestateComponent from "./usestate/usestate";
+import UseStateTwo from "./usestate/usestate-2";
 
 function App() {
   const object1 = {
@@ -158,7 +159,8 @@ function App() {
       <LeadersTodayLearnersTomorrow value={10} data={object1} />
       <LeadersTodayLearnersTomorrow value={20} data={object2} />
       <LeadersTodayLearnersTomorrow value={30} data={object3} /> */}
-      <UsestateComponent />
+      {/* <UsestateComponent /> */}
+      <UseStateTwo />
     </>
   );
 }
