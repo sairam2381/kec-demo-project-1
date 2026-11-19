@@ -19,18 +19,24 @@ const FlexConcept2 = () => {
       number: "1,00,000",
     },
   ];
+
+  // const data = null;
   return (
     <div className="main_parent">
       <h1>Trusted By</h1>
       <div className="container">
-        {data.map((dataValues, index) => {
-          return (
-            <div className="container_element">
-              <span className="number">{dataValues.number}</span>
-              <br></br> <span className="name">{dataValues.title}</span>
-            </div>
-          );
-        })}
+        {data == null ? (
+          <h1>No data found</h1>
+        ) : (
+          data?.map((dataValues, index) => {
+            return (
+              <div className="container_element">
+                <span className="number">{dataValues?.number}</span>
+                <br></br> <span className="name">{dataValues?.title}</span>
+              </div>
+            );
+          })
+        )}
       </div>
     </div>
   );
